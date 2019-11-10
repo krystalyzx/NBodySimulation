@@ -1,5 +1,5 @@
 # N-boady Simulation on a Ring
-A parallel program for perfoming two-deimensional N-body calculation.  Implemented in C with MPI.  
+A parallel program for perfoming two-dimensional N-body calculation.  Implemented in C using MPI.    
 
 ## Setup
 1. Install [MPICH](https://www.mpich.org/)
