@@ -62,6 +62,8 @@ int main( int argc, char *argv[] ){
             nvalues[rank][2] = atof(strsep(&ptr, " "));
             print_body(rank);
             memset(buf, 0,bsize);
+            fread(buf, bsize, 1, fp);
+            //printf("%d %s\n",rank,buf);
         }
 
         fclose(fp);
