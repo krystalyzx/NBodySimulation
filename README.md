@@ -17,4 +17,4 @@ data.txt contains the initial positions.  Each line contains `x-postion y-postio
 The program consists of three phases of communication: 
 1. Initialization (distributing the data).  Rank 1 process reads the input file, keeps the first one and forwards the rests.  Each processor also keeps the first one it received and forwards the rest to the next process on the Ring.
 2. Simulation (some number of simulation rounds).  Each process updates and forward its position. 
-3. Termination (gathering of the data).  Rank 1 process collects and outputs the data to console.
+3. Termination (gathering of the data).  Rank 1 process collects and outputs the data to console
